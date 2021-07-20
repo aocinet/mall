@@ -1,4 +1,4 @@
-package com.mmall.controller;
+package com.mmall.controller.backend;
 
 import com.github.pagehelper.PageInfo;
 import com.mmall.common.Const;
