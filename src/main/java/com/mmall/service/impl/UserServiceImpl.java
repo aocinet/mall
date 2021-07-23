@@ -100,7 +100,7 @@ public class UserServiceImpl implements IUserService {
             RedisPoolUtil.setEx(Const.TOKEN_PREFIX + username, forgetToken, 60 * 60 * 12);
             return ServerResponse.createBySuccess(forgetToken);
         }
-        return ServerResponse.createBySuccessMessage("问题的答案错误");
+        return ServerResponse.createByErrorMessage("问题的答案错误");
     }
 
     public ServerResponse<String> forgetResetPassword(String username, String passwordNew, String forgetToken) {
