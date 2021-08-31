@@ -32,7 +32,7 @@ public class RedisPoolUtil {
         return result;
     }
 
-    //exTime的单位是秒
+    //exTime的单位是秒,设置session有效期
     public static String setEx(String key,String value,int exTime){
         Jedis jedis = null;
         String result = null;

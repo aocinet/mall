@@ -106,11 +106,12 @@ public class Const {
             return code;
         }
     }
-    public enum PaymentTypeEnum{
-        ONLINE_PAY(1,"在线支付");
+    public enum PaymentTypeEnum {
+        ONLINE_PAY(1, "在线支付");
 
         private String value;
         private int code;
+
         PaymentTypeEnum(int code, String value) {
             this.code = code;
             this.value = value;
@@ -124,14 +125,22 @@ public class Const {
             return code;
         }
 
-        public static PaymentTypeEnum codeOf(int code){
-            for(PaymentTypeEnum paymentTypeEnum : values()){
-                if(paymentTypeEnum.getCode() == code){
+        public static PaymentTypeEnum codeOf(int code) {
+            for (PaymentTypeEnum paymentTypeEnum : values()) {
+                if (paymentTypeEnum.getCode() == code) {
                     return paymentTypeEnum;
                 }
             }
             throw new RuntimeException("么有找到对应的枚举");
         }
+    }
+
+    public interface  REDIS_LOCK{
+        String CLOSE_ORDER_TASK_LOCK = "CLOSE_ORDER_TASK_LOCK";//关闭订单的分布式锁
+    }
+
+    public interface  MD5_SALT{
+        String SALT = "geelysdafaqj23ou89ZXcj@#$@#$#@KJdjklj;D../dSF.,";
     }
 
 

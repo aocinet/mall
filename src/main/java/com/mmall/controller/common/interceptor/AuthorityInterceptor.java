@@ -73,6 +73,8 @@ public class AuthorityInterceptor implements HandlerInterceptor{
             user = JsonUtil.string2Obj(userJsonStr,User.class);
         }
 
+
+
         if(user == null || (user.getRole().intValue() != Const.Role.ROLE_ADMIN)){
             //返回false.即不会调用controller里的方法
             response.reset();//geelynote 这里要添加reset，否则报异常 getWriter() has already been called for this response.
