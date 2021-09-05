@@ -1,0 +1,159 @@
+[03:01:53.797][INFO][com.mmall.SpringbootNewMallApplication][main] Starting SpringbootNewMallApplication using Java 1.8.0_291 on LAPTOP-6O7VQVO9 with PID 24704 (D:\IDEA\SpringbootNewMall\target\classes started by Aocin in D:\IDEA\SpringbootNewMall)
+[03:01:53.799][INFO][com.mmall.SpringbootNewMallApplication][main] No active profile set, falling back to default profiles: default
+[03:01:55.088][INFO][com.mmall.common.RedissonManager][main] 初始化Redisson结束
+[03:01:55.634][INFO][com.mmall.SpringbootNewMallApplication][main] Started SpringbootNewMallApplication in 2.12 seconds (JVM running for 2.669)
+[03:02:00.083][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson获取到分布式锁:CLOSE_ORDER_TASK_LOCK,ThreadName:scheduling-1
+[03:02:00.086][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson分布式锁释放锁
+[03:03:00.003][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson获取到分布式锁:CLOSE_ORDER_TASK_LOCK,ThreadName:scheduling-1
+[03:03:00.004][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson分布式锁释放锁
+[03:04:00.004][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson获取到分布式锁:CLOSE_ORDER_TASK_LOCK,ThreadName:scheduling-1
+[03:04:00.005][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson分布式锁释放锁
+[03:04:05.532][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:imooc_isnew,cookieValue:2
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:IMCDNS,cookieValue:0
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:loginstate,cookieValue:1
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:JSESSIONID,cookieValue:C51F45C6AB1C632ECD56803981BC6F7C
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:mmall_login_token,cookieValue:C51F45C6AB1C632ECD56803981BC6F7C
+[03:04:05.534][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] return cookieName:mmall_login_token,cookieValue:C51F45C6AB1C632ECD56803981BC6F7C
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:imooc_isnew,cookieValue:2
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:IMCDNS,cookieValue:0
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:loginstate,cookieValue:1
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:JSESSIONID,cookieValue:C51F45C6AB1C632ECD56803981BC6F7C
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] read cookieName:mmall_login_token,cookieValue:C51F45C6AB1C632ECD56803981BC6F7C
+[03:04:05.568][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] return cookieName:mmall_login_token,cookieValue:C51F45C6AB1C632ECD56803981BC6F7C
+[03:04:05.874][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-nio-8080-exec-1] ==>  Preparing: select count(1) from mmall_user where username = ? 
+[03:04:05.887][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-nio-8080-exec-1] ==> Parameters: abcnew(String)
+[03:04:05.899][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-nio-8080-exec-1] <==      Total: 1
+[03:04:05.903][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-nio-8080-exec-1] ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time from mmall_user where username = ? and password = ? 
+[03:04:05.903][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-nio-8080-exec-1] ==> Parameters: abcnew(String), 5C1DEDC6575769971A955A424FB970E1(String)
+[03:04:05.905][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-nio-8080-exec-1] <==      Total: 1
+[03:04:05.906][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-1] write cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:05:00.013][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson获取到分布式锁:CLOSE_ORDER_TASK_LOCK,ThreadName:scheduling-1
+[03:05:00.014][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson分布式锁释放锁
+[03:06:00.004][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson获取到分布式锁:CLOSE_ORDER_TASK_LOCK,ThreadName:scheduling-1
+[03:06:00.005][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson分布式锁释放锁
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_isnew,cookieValue:2
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:IMCDNS,cookieValue:0
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:loginstate,cookieValue:1
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.968][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.985][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_isnew,cookieValue:2
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:IMCDNS,cookieValue:0
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:loginstate,cookieValue:1
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.986][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:imooc_isnew,cookieValue:2
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:IMCDNS,cookieValue:0
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:loginstate,cookieValue:1
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:01.987][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-2] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_isnew,cookieValue:2
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:IMCDNS,cookieValue:0
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:loginstate,cookieValue:1
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.872][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.873][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.873][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_isnew,cookieValue:2
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:IMCDNS,cookieValue:0
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:loginstate,cookieValue:1
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.874][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:imooc_isnew,cookieValue:2
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:IMCDNS,cookieValue:0
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:loginstate,cookieValue:1
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:06:08.875][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-3] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:00.005][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson获取到分布式锁:CLOSE_ORDER_TASK_LOCK,ThreadName:scheduling-1
+[03:07:00.006][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson分布式锁释放锁
+[03:07:18.960][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_isnew,cookieValue:2
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:IMCDNS,cookieValue:0
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:loginstate,cookieValue:1
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.961][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_isnew,cookieValue:2
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:IMCDNS,cookieValue:0
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:loginstate,cookieValue:1
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.962][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.963][INFO][com.mmall.interceptor.MyInterceptor][http-nio-8080-exec-4] preHandle
+[03:07:18.963][INFO][com.mmall.interceptor.MyInterceptor][http-nio-8080-exec-4] 权限拦截器拦截到请求,className:CategoryManageController,methodName:addCategory,param:parentId=[0]categoryName=[新增的数码产品子分类]
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_uuid,cookieValue:6c2ba554-5543-497f-a628-7e050462650c
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_isnew_ct,cookieValue:1626995633
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:imooc_isnew,cookieValue:2
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:IMCDNS,cookieValue:0
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:loginstate,cookieValue:1
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:apsid,cookieValue:kzMjRlOTI2ZjMwNmIzNDRiOWJlMjE0MTdlOTA1ZTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ1OTU3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIxNmE2YmZjNzZiMWI3YTgzZGU5ZDcyYWRmNzA2Nzc2BoYsYQaGLGE%3DZj
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:Hm_lpvt_f0cfcccd7b1393990c78efdeebff3968,cookieValue:1630345638
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:sensorsdata2015jssdkcross,cookieValue:%7B%22distinct_id%22%3A%224459579%22%2C%22first_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fcn.bing.com%2F%22%7D%2C%22%24device_id%22%3A%2217b1d022b4e105b-0f2f0ee5de71ba-4343363-1327104-17b1d022b4f741%22%7D
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:cvde,cookieValue:612d198d37c05-6
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:JSESSIONID,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] read cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:07:18.963][INFO][com.mmall.util.CookieUtil][http-nio-8080-exec-4] return cookieName:mmall_login_token,cookieValue:7176400EB617641079664051DFAE8BBC
+[03:08:00.014][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson获取到分布式锁:CLOSE_ORDER_TASK_LOCK,ThreadName:scheduling-1
+[03:08:00.015][INFO][com.mmall.task.CloseOrderTask][scheduling-1] Redisson分布式锁释放锁
